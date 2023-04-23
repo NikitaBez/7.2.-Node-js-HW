@@ -4,8 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "eslint": "eslint",
+    "prettier": "prettier",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Bezmenov Nikita",
-  "license": "ISC"
+  "author": "bezmenov nikita",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.1.0"
+  },
+  "dependencies": {
+    "prettier": "^2.8.8"
+  }
 }
